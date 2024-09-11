@@ -1,5 +1,5 @@
 {
-  "name": "multer",
+  "name": "@interopio/multer",
   "description": "Middleware for handling `multipart/form-data`.",
   "version": "1.4.5-lts.1",
   "contributors": [
@@ -8,7 +8,10 @@
     "Linus Unnebäck <linus@folkdatorn.se>"
   ],
   "license": "MIT",
-  "repository": "expressjs/multer",
+  "repository": "InteropIO/multer",
+  "publishConfig": {
+    "registry": "https://glue42.jfrog.io/artifactory/api/npm/default-npm-virtual/"
+  },
   "keywords": [
     "form",
     "post",
